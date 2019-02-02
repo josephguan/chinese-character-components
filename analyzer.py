@@ -69,4 +69,3 @@ if __name__ == '__main__':
     analyzer = Analyzer(['./data/level1.csv', './data/level2.csv'])
     analyzer.write_word_could('./output/wordcloud.jpg')
     analyzer.write_topN('./output/top40.csv', 40)
-    analyzer.write_topN('./output/top20.csv', 20)
