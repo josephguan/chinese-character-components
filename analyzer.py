@@ -43,7 +43,7 @@ class Analyzer(object):
             freq[a] = b
         # bg_pic = plt.imread(BACKGROUND)
         # wc = WordCloud(font_path=FONT, mask=bg_pic, width=800, height=600)
-        wc = WordCloud(font_path=FONT, width=400, height=200, background_color='white')
+        wc = WordCloud(font_path=FONT, width=600, height=350, background_color='white')
         wc.generate_from_frequencies(frequencies=freq)
         return wc
 
